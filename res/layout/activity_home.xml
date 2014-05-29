@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="romaric.ecp.voiceintervention.HomeActivity"
+    tools:ignore="MergeRootFrame" >
+
+  <Button
+      android:id="@+id/bt_planned"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_weight="26.04"
+      android:text="@string/bt_planned" />
+
+  <Button
+      android:id="@+id/bt_emergency"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_weight="20"
+      android:text="@string/bt_emergency" />
+
+</LinearLayout>
